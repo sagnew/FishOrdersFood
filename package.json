@@ -1,16 +1,18 @@
 {
-    "name": "Fish Orders Food",
-    "version": "0.0.0",
-    "description": "Decide on TaTa's pizza toppings based on the fish's position in Fish Plays Pokemon",
-    "main": "fishOrdersFood.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/sagnew/FishOrdersFood.git"
-    },
-    "dependencies": {
-        "ordrin-api": "*"
-    },
-    "author": "Sam Agnew",
-    "license": "MIT",
-    "readmeFilename": "README.md"
+  "name": "FishOrdersFood",
+  "version": "0.0.0",
+  "description": "Decide on TaTa's pizza toppings based on the fish's position in Fish Plays Pokemon",
+  "main": "fishOrdersFood.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sagnew/FishOrdersFood.git"
+  },
+  "dependencies": {
+    "ordrin-api": "*",
+    "request": "^2.45.0",
+    "requests": "0.0.1"
+  },
+  "author": "Sam Agnew",
+  "license": "MIT",
+  "readmeFilename": "README.md"
 }

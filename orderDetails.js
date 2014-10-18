@@ -17,5 +17,6 @@ module.exports = {
     'card_bill_state': 'NJ',
     'card_bill_zip': '08901',
     'card_bill_phone': '6107616189',
-    'delivery_date': 'ASAP'
+    'delivery_time': '20:00',
+    'delivery_date': '10-18'
 }
