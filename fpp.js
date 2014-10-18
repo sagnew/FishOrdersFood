@@ -1,6 +1,6 @@
 var request = require('request');
 
-module.exports = function(callback) {
+module.exports = function(callback, res) {
     request.get('http://api.fishplayspokemon.com/position', function(err, data ) {
         if(err) {
             console.log(err);
@@ -21,6 +21,6 @@ module.exports = function(callback) {
             console.log(3);
             pizzaNum = 3;
         }
-        callback(pizzaNum);
+        callback(pizzaNum, res);
     });
 };

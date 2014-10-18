@@ -8,6 +8,7 @@
     "url": "git://github.com/sagnew/FishOrdersFood.git"
   },
   "dependencies": {
+    "express": "^4.9.8",
     "ordrin-api": "*",
     "request": "^2.45.0",
     "requests": "0.0.1"
